@@ -13,4 +13,12 @@ def send_telegram_msg(message):
         print("Error:", e)
 
 print("🚀 SERVER STARTED SUCCESSFULLY...")
-send_telegram_msg("🔄 *Gyananshu Bhai! Gold Bot Render Server Par Live Ho Chuka Hai!*\nTeeno Models background me active hain.")
+send_telegram_msg("🔄 *Gyananshu Bhai! Gold Bot Render Server Par 24/7 Live Ho Chuka Hai!*")
+
+while True:
+    try:
+        print("🔍 Checking Gold Market Levels... Engine Active.")
+        time.sleep(300) 
+    except Exception as e:
+        print("Loop Error:", e)
+        time.sleep(10)
